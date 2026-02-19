@@ -27,6 +27,7 @@ name: CI Nightly
 on:
   schedule:
     - cron: '0 */6 * * *'
+  workflow_dispatch: 
 
 jobs:
   build:
